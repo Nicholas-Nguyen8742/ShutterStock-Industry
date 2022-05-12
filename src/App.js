@@ -3,10 +3,10 @@ import "./styles/App.scss";
 function App() {
 	return (
 		<section>
-			<header>
+			<section>
 				<nav>This is a test</nav>
 				<footer>This is a test</footer>
-			</header>
+			</section>
 		</section>
 	);
 }
