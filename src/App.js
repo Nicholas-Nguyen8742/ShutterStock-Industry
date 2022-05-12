@@ -1,19 +1,14 @@
-import './styles/App.scss';
+import "./styles/App.scss";
 
 function App() {
-  return (
-    <div>
-      <header>
-
-    <div>
-      <header>
-
-      </header>
-    </div>
-
-      </header>
-    </div>
-  );
+	return (
+		<section>
+			<header>
+				<nav>This is a test</nav>
+				<footer>This is a test</footer>
+			</header>
+		</section>
+	);
 }
 
 export default App;
