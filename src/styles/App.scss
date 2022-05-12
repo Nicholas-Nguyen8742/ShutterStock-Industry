@@ -1,2 +1,12 @@
+@use './partials/mixins' as *;
+@use './partials/variables' as *;
 
 
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+html, body {
+    font-family: 'Roboto', Arial, Helvetica, sans-serif
+}
