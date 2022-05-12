@@ -5,6 +5,9 @@ function App() {
 		<section>
 			<section>
 				<nav>This is a test</nav>
+				<div>
+				</div>
+				<div></div>
 				<footer>This is a test</footer>
 			</section>
 		</section>
