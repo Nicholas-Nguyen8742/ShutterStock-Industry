@@ -168,6 +168,9 @@
 		text-align: right;
 	}
 }
+.popup {
+	margin: 0 5rem;
+}
 
 .popup__close {
 	cursor: pointer;
@@ -175,7 +178,7 @@
 	display: block;
 	width: 14px;
 	height: 14px;
-	right: 1.75rem;
+	right: 14.1875rem;
 	top: 0.75rem;
 	font-size: 1.5rem;
 	background-color: #f3f4f5;
