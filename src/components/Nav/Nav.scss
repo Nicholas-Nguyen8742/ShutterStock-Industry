@@ -13,20 +13,23 @@
 		gap: 0.2rem;
 		margin-right: auto;
 		margin-bottom: 0;
+		margin-left: 6rem;
 	}
 
 	&__item {
-		font-size: 0.8rem;
+		font-size: 1rem;
 		border-right: solid 1px lightgray;
 		color: white;
 		padding: 0.75rem 0rem;
 		padding-right: 1rem;
-		padding-left: 1rem;
+		padding-left: 2rem;
+		font-weight: 400;
+		font-family: 'Roboto';
 	}
 
 	&__earnings {
 		padding-right: 2.5rem;
 		color: white;
-		font-size: 0.8rem;
+		font-size: 1rem;
 	}
 }

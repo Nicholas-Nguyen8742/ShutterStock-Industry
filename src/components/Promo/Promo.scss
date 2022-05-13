@@ -1,0 +1,52 @@
+@use '../../styles/partials/mixins' as *;
+@use '../../styles/partials/variables' as *;
+
+.promo {
+    background-color: #333333;
+    height: 4.625rem;
+    margin: 0 -2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &__tagline {
+        line-height: 24px;
+        font-weight: 400;
+        font-family: 'Roboto';
+        font-size: 16px;
+        color: $Primary-White;
+        align-self: center;
+        margin: 0;
+        margin-right: 3rem;
+    }
+    &__socials {
+        display: flex;
+        margin-right: 3rem;
+    }
+    &__logos {
+        width: 3.375rem;
+        border-radius: 25px;
+        height: 3.375rem;
+        margin: 0 0.5rem;
+    }
+    &__cta {
+        color: white;
+        border: none;
+        border: 1px solid #CC382D;
+        background-color: #e85b54;
+        color: $Primary-White;
+        border: none;
+        padding: 0.5625rem 2.5rem;
+        font-size: 1.125rem;
+        border-radius: 6px;
+        height: 40px;
+        border-color: #b22520;
+        text-shadow: 0 -1px 0 rgb(0 0 0 / 25%);
+        background-repeat: repeat-x;
+        background-image: linear-gradient(to bottom,#e85b54 0,#b22520 100%);
+        box-shadow: inset 0 1px 0 rgb(242 164 162 / 60%), 0 1px 2px rgb(0 0 0 / 5%);
+        &:hover {
+            background-color: #CC382D;
+        }
+    }
+
+}

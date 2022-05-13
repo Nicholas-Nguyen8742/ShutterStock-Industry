@@ -5,10 +5,10 @@ export const Nav = () => {
 	return (
 		<nav className="nav">
 			<ul className="nav__list">
-				<li className="nav__item">Earnings</li>
-				<li className="nav__item">Portfolio</li>
-				<li className="nav__item">Insights</li>
-				<li className="nav__item">Upload</li>
+				<li className="nav__item">Earnings<span class="glyphicon glyphicon-menu-down"></span></li>
+				<li className="nav__item">Portfolio<span class="glyphicon glyphicon-menu-down"></span></li>
+				<li className="nav__item">Insights<span class="glyphicon glyphicon-menu-down"></span></li>
+				<li className="nav__item">Upload<span class="glyphicon glyphicon-menu-down"></span></li>
 			</ul>
 			<span className="nav__earnings">Unpaid Earnings: $0.00</span>
 		</nav>
