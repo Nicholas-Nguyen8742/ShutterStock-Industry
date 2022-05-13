@@ -1,18 +1,16 @@
 .nav {
-	background-color: gray;
-	width: 110%;
+	background: gray;
 	height: 2.5rem;
 	margin: 1rem -2rem;
 	padding: 0rem 1rem;
 	display: flex;
-	justify-content: space-between;
 	align-items: center;
-
 	&__list {
 		list-style: none;
 		padding: 0;
 		display: flex;
 		gap: 0.2rem;
+		margin-right: auto;
 	}
 
 	&__item {
@@ -25,7 +23,7 @@
 	}
 
 	&__earnings {
-		padding-right: 1rem;
+		padding-right: 2.5rem;
 		color: white;
 		font-size: 0.8rem;
 	}
