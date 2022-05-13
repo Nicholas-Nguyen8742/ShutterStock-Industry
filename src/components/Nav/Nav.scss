@@ -2,6 +2,7 @@
 	background: gray;
 	height: 2.5rem;
 	margin: 1rem -2rem;
+	margin-bottom: 0;
 	padding: 0rem 1rem;
 	display: flex;
 	align-items: center;
@@ -11,6 +12,7 @@
 		display: flex;
 		gap: 0.2rem;
 		margin-right: auto;
+		margin-bottom: 0;
 	}
 
 	&__item {

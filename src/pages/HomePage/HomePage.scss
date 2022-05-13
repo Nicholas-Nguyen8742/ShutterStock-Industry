@@ -1,2 +1,101 @@
 @use '../../styles/partials/mixins' as *;
 @use '../../styles/partials/variables' as *;
+
+.UserPage {
+    background-color: rgba($Primary-Gray, 0.25);
+    height: 100rem;
+    display: flex;
+
+    &-Left {
+        width: 25%;
+        padding-top: 2rem;
+        padding-left: 2rem;
+        display: flex;
+        flex-direction: column;
+    }
+    &-Right {
+        width: 75%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+}
+
+.upload {
+    background-color: #e85b54;
+    color: $Primary-White;
+    border: none;
+    padding: 0.5625rem 2.5rem;
+    font-size: 1.125rem;
+    border-radius: 6px;
+    border-color: #b22520;
+    text-shadow: 0 -1px 0 rgb(0 0 0 / 25%);
+    border: 1px solid #ccc;
+    background-repeat: repeat-x;
+    background-image: linear-gradient(to bottom,#e85b54 0,#b22520 100%);
+    box-shadow: inset 0 1px 0 rgb(242 164 162 / 60%), 0 1px 2px rgb(0 0 0 / 5%);
+    width: 100%;
+}
+
+.adobe {
+    width: 100%;
+    border-radius: 6px;
+
+}
+
+
+.downloads {
+    width: 95%;
+    display: flex;
+    border-radius: 4px;
+    border: $Border-Divider;
+    margin-left: 3.5625rem;
+    background-color: white;
+    padding: 2rem;
+    margin-top: -34rem;
+    height: 30rem;
+    &-left {
+        width: 45%;
+        &__map {
+            width: 100%;
+        }
+    }
+    &-right {
+        width: 55%;
+        align-self: center;
+        &__headers {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        &__header {
+            width: 25%;
+            font-weight: bold;
+            text-align: center;
+        }
+        &__rows {
+            display: flex;
+            justify-content: space-between;
+            text-align: center;
+            align-items: center;
+            padding: 1rem;
+            border-top: $Border-Divider;
+            border-bottom: $Border-Divider;
+        }
+        &__row {
+            text-align: center;
+            align-items: center;
+            width: 25%;
+            border-right: $Border-Divider;
+            height: 100%;
+            margin: 0;
+            padding: 2rem 0;
+            &:nth-child(4) {
+                border-right: unset;
+            }
+        }
+        &__img {
+            width: 20%;
+        }
+    }
+}

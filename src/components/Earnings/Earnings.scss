@@ -1,0 +1,31 @@
+@use '../../styles/partials/mixins' as *;
+@use '../../styles/partials/variables' as *;
+
+
+.earnings {
+    border-radius: 4px;
+    border: $Border-Divider;
+    height: 20rem;
+    width: 45%;
+    margin-top: 3.5rem;
+    margin-left: 3.5625rem;
+    background-color: white;
+    padding: 2rem;
+    display: flex;
+    &-left {
+        width: 200%;
+        padding-right: 2rem;
+        border-right: $Border-Divider;
+        &__title {
+            font-family: Roboto;
+            font-size: 16px;
+            font-weight: 700;
+        }
+        &__body {
+            font-size: 14px;
+        }
+    }
+    &-right {
+        padding-left: 2rem;
+    }
+}
