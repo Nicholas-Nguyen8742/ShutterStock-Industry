@@ -1,0 +1,32 @@
+.nav {
+	background-color: gray;
+	width: 110%;
+	height: 2.5rem;
+	margin: 1rem -2rem;
+	padding: 0rem 1rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+	&__list {
+		list-style: none;
+		padding: 0;
+		display: flex;
+		gap: 0.2rem;
+	}
+
+	&__item {
+		font-size: 0.8rem;
+		border-right: solid 1px lightgray;
+		color: white;
+		padding: 0.75rem 0rem;
+		padding-right: 1rem;
+		padding-left: 1rem;
+	}
+
+	&__earnings {
+		padding-right: 1rem;
+		color: white;
+		font-size: 0.8rem;
+	}
+}

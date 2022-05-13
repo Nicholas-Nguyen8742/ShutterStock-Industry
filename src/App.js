@@ -1,13 +1,11 @@
 import "./styles/App.scss";
+import { Header } from "./components/Header/Header";
 
 function App() {
 	return (
-		<section>
-			<header>
-				<nav>This is a test</nav>
-				<footer>This is a test</footer>
-			</header>
-		</section>
+		<>
+			<Header />
+		</>
 	);
 }
 
