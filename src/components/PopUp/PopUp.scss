@@ -1,16 +1,15 @@
 @use "../../styles/partials/mixins" as *;
 @use "../../styles/partials/variables" as *;
 
-.popup-overlay{
-    background-color: rgba($color: #c4c4c4, $alpha: 0.86);
+.popup-overlay {
+	background-color: rgba($color: #c4c4c4, $alpha: 0.86);
 }
-
 
 .photometrics {
 	padding: 1rem 2rem;
 	display: flex;
-    background-color: $Primary-White;
-    border-radius: 4px;
+	background-color: $Primary-White;
+	border-radius: 4px;
 
 	// display: flex;
 	// flex-direction: column;
@@ -168,4 +167,22 @@
 		color: #0071f1;
 		text-align: right;
 	}
+}
+
+.popup__close {
+	cursor: pointer;
+	position: absolute;
+	display: block;
+	width: 14px;
+	height: 14px;
+	right: 1.75rem;
+	top: 0.75rem;
+	font-size: 1.5rem;
+	background-color: #f3f4f5;
+	border: none;
+	position: absolute;
+	right: 0;
+	font-size: 3.5rem;
+	top: 0;
+	right: 2.1875rem;
 }
