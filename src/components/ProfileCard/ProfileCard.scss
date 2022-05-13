@@ -1,0 +1,38 @@
+@use '../../styles/partials/mixins' as *;
+@use '../../styles/partials/variables' as *;
+
+.profilecard {
+    border-radius: 4px;
+    border: $Border-Divider;
+    height: 20rem;
+    width: 45%;
+    margin-top: 3.5rem;
+    margin-left: 3.5625rem;
+    background-color: white;
+    padding: 2rem;
+    display: flex;
+    &-left {
+        padding: 0 1.5rem;
+        border-right: $Border-Divider;
+    }
+    &-right {
+        padding: 0 1.5rem;
+        &__progress {
+            color: #4e90AD;
+            width: 100%;
+            border: $Border-Divider;
+            border-radius: 6px;
+        }        
+    }
+    &__avatar {
+        width: 130px;
+        height: 123px;
+        object-fit: cover;
+        border-radius: 50%;
+    }
+    &__body {
+        text-align: center;
+        padding-top: 0.5rem;
+
+    }
+}
