@@ -46,7 +46,7 @@ function PhotoMetrics() {
 					</div>
 				</div>
 				<div className="photometrics__background">
-					<img src={personImage} className="photometrics__image" alt=" " />
+					<img src={brooklyn} className="photometrics__image" alt=" " />
 				</div>
 				<div className="photometrics__caption-container">
 					<span>
