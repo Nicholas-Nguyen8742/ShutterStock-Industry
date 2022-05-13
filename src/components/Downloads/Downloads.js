@@ -3,7 +3,7 @@ import React from 'react';
 import map from '../../assets/images/map.png';
 import bridge from '../../assets/images/BrooklynBridge.png';
 import brooklyn from '../../assets/images/Brooklyn.jpg';
-
+import PhotoMetrics from '../PopUp/PopUp';
 function Downloads() {
     return (
         <article className='downloads'>
@@ -19,7 +19,7 @@ function Downloads() {
                     <p className='downloads-right__header'>Earnings</p>
                 </div>
                 <div className='downloads-right__rows'>
-                    <img className='downloads-right__img' src={bridge}></img>
+                    <PhotoMetrics className='downloads-right__img' />
                     <p className='downloads-right__row'>Brooklyn, USA</p>
                     <p className='downloads-right__row'>1800</p>
                     <p className='downloads-right__row'>$19.75</p>

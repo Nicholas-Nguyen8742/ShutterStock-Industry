@@ -1,15 +1,16 @@
-import "./PhotoMetrics.scss";
+import "./PopUp.scss";
 import React from "react";
 import Popup from "reactjs-popup";
 import personImage from "../../assets/images/stock-photo-portrait-of-happy-young-asian-teenager-smiling-in-front-of-camera-2109768044.jpg";
 import bridgeImage from "../../assets/images/brooklyn_bridge.jpg";
-import Popup from "reactjs-popup";
 import brooklyn from "../../assets/images/BrooklynBridge.png";
 
 function PhotoMetrics() {
 	return (
-        <Popup trigger={<input type="image" name="trashBin" src={brooklyn} alt="text"></input>} modal nested>
+        <Popup trigger={<input type="image" name="trashBin" src={brooklyn} alt="text" className='downloads-right__img' ></input>} modal nested>
             {close => (
+            <div className="popup">
+            <button className="popup__close" onClick={close}>&times;</button>
             <div className="popup">
                 <main className="photometrics">
                     <div>
@@ -122,6 +123,7 @@ function PhotoMetrics() {
                         </div>
                     </div>
                 </main>
+            </div>
             </div>
             )}
         </Popup>

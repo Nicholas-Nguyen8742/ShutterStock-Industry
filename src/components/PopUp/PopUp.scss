@@ -1,9 +1,16 @@
 @use "../../styles/partials/mixins" as *;
 @use "../../styles/partials/variables" as *;
 
+.popup-overlay{
+    background-color: rgba($color: #c4c4c4, $alpha: 0.86);
+}
+
+
 .photometrics {
 	padding: 1rem 2rem;
 	display: flex;
+    background-color: $Primary-White;
+    border-radius: 4px;
 
 	// display: flex;
 	// flex-direction: column;
