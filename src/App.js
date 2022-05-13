@@ -6,15 +6,13 @@ import PhotoMetrics from './pages/PhotoMetrics/PhotoMetrics'
 
 function App() {
 	return (
-		<>
       <BrowserRouter>
         <Header />
         <Switch>
           <Route path="/user" exact component={HomePage} />
-          <Route path="/user/photo" exact component={PhotoMetrics} /> 
+          <Route path="/user/photo" component={PhotoMetrics} /> 
         </Switch>
       </BrowserRouter>
-		</>
 	);
 }
 
