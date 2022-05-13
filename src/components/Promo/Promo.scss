@@ -6,7 +6,7 @@
     height: 4.625rem;
     margin: 0 -2rem;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     &__tagline {
         line-height: 24px;
@@ -16,9 +16,17 @@
         color: $Primary-White;
         align-self: center;
         margin: 0;
+        margin-right: 3rem;
     }
     &__socials {
         display: flex;
+        margin-right: 3rem;
+    }
+    &__logos {
+        width: 3.375rem;
+        border-radius: 25px;
+        height: 3.375rem;
+        margin: 0 0.5rem;
     }
     &__cta {
         color: white;
@@ -36,6 +44,9 @@
         background-repeat: repeat-x;
         background-image: linear-gradient(to bottom,#e85b54 0,#b22520 100%);
         box-shadow: inset 0 1px 0 rgb(242 164 162 / 60%), 0 1px 2px rgb(0 0 0 / 5%);
+        &:hover {
+            background-color: #CC382D;
+        }
     }
 
 }
