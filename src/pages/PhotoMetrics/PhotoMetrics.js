@@ -2,12 +2,14 @@ import "./PhotoMetrics.scss";
 import React from "react";
 import personImage from "../../assets/images/stock-photo-portrait-of-happy-young-asian-teenager-smiling-in-front-of-camera-2109768044.jpg";
 import bridgeImage from "../../assets/images/brooklyn_bridge.jpg";
-import commentsImage from "../../assets/images/comments.png";
+import commentsImage from "../../assets/images/comments.PNG";
+import insightsImage from "../../assets/images/insights.PNG";
+import licenseImage from "../../assets/images/license.PNG";
 
 function PhotoMetrics() {
 	return (
 		<main className="photometrics">
-			<div>
+			<div className="side__scroll">
 				<div className="photometrics__buttons-container">
 					<div>
 						<button
@@ -76,9 +78,25 @@ function PhotoMetrics() {
 					</div>
 				</div>
 			</div>
-			<div>
 
+			<div className="icons">
+				<img 
+					src={commentsImage}
+					className="icons--sizing icons--active"
+					alt=" "
+				/>
+				<img 
+					src={insightsImage}
+					className="icons--sizing"
+					alt=" "
+				/>
+				<img 
+					src={licenseImage}
+					className="icons--sizing"
+					alt=" "
+				/>
 			</div>
+
 			<div className="side-bar">
 				<div className="side-bar__icons"></div>
 				<div className="side-bar__comments-container">
@@ -87,7 +105,7 @@ function PhotoMetrics() {
 						<span className="side-bar__date">January 2, 2021</span>
 					</div>
 					<span>I love this photo. I used it for my hackathon project.</span>
-					<img className="side-bar__image" src={bridgeImage} />
+					<img className="side-bar__image" src={bridgeImage} alt=" "/>
 					<div className="side-bar__text">
 						<span className="side-bar__name">Taylor</span>
 						<span className="side-bar__date">Nov 30, 2021</span>
@@ -96,7 +114,7 @@ function PhotoMetrics() {
 						It was raining during our wedding photos so we had to swap out the
 						background.
 					</span>
-					<img className="side-bar__image" src={bridgeImage} />
+					<img className="side-bar__image" src={bridgeImage} alt=" " />
 					<div className="side-bar__text">
 						<span className="side-bar__name">Jasmin N.</span>
 						<span className="side-bar__date">May 10, 2022</span>
@@ -105,7 +123,7 @@ function PhotoMetrics() {
 						I'm a social media influencer. The bridge is a rarely empty so I
 						just used a stock image for my post.
 					</span>
-					<img className="side-bar__image" src={bridgeImage} />
+					<img className="side-bar__image" src={bridgeImage} alt=" " />
 					<div className="side-bar__text">
 						<span className="side-bar__name">Jason</span>
 						<span className="side-bar__date">May 12, 2022</span>
