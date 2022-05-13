@@ -1,0 +1,61 @@
+@use '../../styles/partials/mixins' as *;
+@use '../../styles/partials/variables' as *;
+
+.userstats {
+    border: $Border-Divider;
+    border-radius: 4px;
+    box-shadow: 0 1px 1px rgb(0 0 0 / 5%);
+    margin-top: 2rem;
+    background-color: #fff;
+    margin-bottom: 1.25rem;
+    padding: 0;
+    &__list {
+        padding: 0;
+        height: 2.5rem;
+        display: flex;
+        list-style: none;
+    }
+    &__item {
+        width: 50%;
+        text-align: center;
+        cursor: pointer;
+        height: 2.5rem;
+        padding-top: 1.75rem;
+        font-family: Arial,Helvetica,sans-serif;
+        font-size: 14px;
+        line-height: 1.42857143;
+        padding-bottom: 3rem;
+        &-inactive {
+            color: #298aae;
+        }
+        &-active {
+            border-bottom: $Border-Divider;
+            border-width: 3px;
+        }
+    }
+    &__statslist {
+        padding: 0 1rem;
+        margin-top: 4rem;
+        padding-bottom: 4rem;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    &__link {
+        margin-bottom: 2rem;
+        color: #298aae;
+        font-family: 'Roboto';
+        font-weight: 400;
+        font-size: 14px;
+        width: 75%;
+    }
+    &__stat {
+        width: 2.25rem;
+        height: 2.25rem;
+        color: $Primary-Black;
+        font-family: 'Roboto';
+        font-size: 16px;
+        background-color: #c4c4c4;
+        border-radius: 25px;
+        text-align: center;
+    }
+}
