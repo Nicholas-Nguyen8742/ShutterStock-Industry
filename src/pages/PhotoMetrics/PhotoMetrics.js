@@ -2,6 +2,7 @@ import "./PhotoMetrics.scss";
 import React from "react";
 import personImage from "../../assets/images/stock-photo-portrait-of-happy-young-asian-teenager-smiling-in-front-of-camera-2109768044.jpg";
 import bridgeImage from "../../assets/images/brooklyn_bridge.jpg";
+import commentsImage from "../../assets/images/comments.png";
 
 function PhotoMetrics() {
 	return (
@@ -11,9 +12,9 @@ function PhotoMetrics() {
 					<div>
 						<button
 							type="button"
-							class="btn btn-default btn-sm photometrics__likes"
+							className="btn btn-default btn-sm photometrics__likes"
 						>
-							<span class="glyphicon glyphicon-heart-empty"></span> 900,301
+							<span className="glyphicon glyphicon-heart-empty"></span> 900,301
 							likes
 						</button>
 					</div>
@@ -39,13 +40,13 @@ function PhotoMetrics() {
 				<div className="photometrics__caption-container">
 					<span>
 						Royalty-free stock photo ID: 2109768044
-						<span class="glyphicon glyphicon-book photometrics__book"></span>
+						<span className="glyphicon glyphicon-book photometrics__book"></span>
 					</span>
 					<button
 						type="button"
-						class="btn btn-default btn-sm photometrics__downloads"
+						className="btn btn-default btn-sm photometrics__downloads"
 					>
-						<span class="glyphicon glyphicon-cloud-download"></span> 756,021
+						<span className="glyphicon glyphicon-cloud-download"></span> 756,021
 						downloads
 					</button>
 				</div>
@@ -74,6 +75,9 @@ function PhotoMetrics() {
 						</div>
 					</div>
 				</div>
+			</div>
+			<div>
+
 			</div>
 			<div className="side-bar">
 				<div className="side-bar__icons"></div>
@@ -107,7 +111,7 @@ function PhotoMetrics() {
 						<span className="side-bar__date">May 12, 2022</span>
 					</div>
 					<button type="button" class="btn btn-default btn-sm side-bar__play">
-						<span class="glyphicon glyphicon-play"></span> Audio Comment
+						<span className="glyphicon glyphicon-play"></span> Audio Comment
 					</button>
 					<div className="side-bar__link-container">
 						<span className="side-bar__show-transcript">Show transcript</span>

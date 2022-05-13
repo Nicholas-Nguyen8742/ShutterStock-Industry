@@ -2,7 +2,7 @@
 @use "../../styles/partials/variables" as *;
 
 .photometrics {
-	padding: 1rem 2rem;
+	padding: 0rem 2rem;
 	display: flex;
 
 	// display: flex;
@@ -26,6 +26,7 @@
 			display: flex;
 			justify-content: space-between;
 			align-items: flex-end;
+            margin-top: 1rem;
 		}
 	}
 	&__try {
@@ -116,6 +117,7 @@
 		display: flex;
 		justify-content: space-between;
 		width: 100%;
+        margin-top: 1rem;
 	}
 
 	&__image {
