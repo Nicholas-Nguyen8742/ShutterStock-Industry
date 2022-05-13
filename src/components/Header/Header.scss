@@ -1,0 +1,31 @@
+.header {
+	padding: 0rem 2rem;
+
+	&__container {
+		display: flex;
+		justify-content: space-between;
+		align-items: baseline;
+		margin: 1rem 0rem;
+	}
+
+	&__image {
+		background: url(../../assets/images/logo-contributor.png) no-repeat;
+		width: 20.0625rem;
+		height: 2.4375rem;
+		display: block;
+		background-size: 19rem 3.5rem;
+	}
+
+	&__user {
+		background-color: white;
+		border: none;
+		border-right: solid 1px gray;
+		padding: 0rem 1.5rem;
+	}
+
+	&__language {
+		background-color: white;
+		border: none;
+		padding: 0rem 1.5rem;
+	}
+}
