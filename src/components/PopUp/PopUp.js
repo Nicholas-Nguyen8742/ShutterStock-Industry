@@ -1,7 +1,7 @@
 import "./PopUp.scss";
 import React from "react";
 import Popup from "reactjs-popup";
-import personImage from "../../assets/images/stock-photo-portrait-of-happy-young-asian-teenager-smiling-in-front-of-camera-2109768044.jpg";
+import personImage from "../../assets/images/Stephanie.svg";
 import bridgeImage from "../../assets/images/brooklyn_bridge.jpg";
 import brooklyn from "../../assets/images/BrooklynBridge.png";
 import couplesOnBridge from "../../assets/images/couple_bridge.jpg";
@@ -30,19 +30,19 @@ function PhotoMetrics() {
                                 </button>
                             </div>
                             <div className="photometrics__buttons">
-                                <button
+                                {/* <button
                                     type="button"
                                     className="btn btn-default btn-sm photometrics__try"
                                 >
                                     <span className="glyphicon glyphicon-download-alt"></span> Try
-                                </button>
+                                </button> */}
                                 <button
                                     type="button"
                                     className="btn btn-default btn-sm photometrics__share"
                                 >
                                     <span className="glyphicon glyphicon-share"></span> Share
                                 </button>
-                                <button className="photometrics__redownload">Redownload</button>
+                                {/* <button className="photometrics__redownload">Redownload</button> */}
                             </div>
                         </div>
                         <div className="photometrics__background">
@@ -65,7 +65,7 @@ function PhotoMetrics() {
                             <div className="photometrics__details">
                                 <span className="photometrics__id">Item ID: 2109768044</span>
                                 <span className="photometrics__address">
-                                    New York, Brooklyn bridge at nigth, USA
+                                    New York, Brooklyn Bridge at Night, USA
                                 </span>
                             </div>
                             <div className="photometrics__details">
@@ -79,10 +79,10 @@ function PhotoMetrics() {
                                 <div>
                                     <img
                                         className="photometrics__profile"
-                                        src={couplesOnBridge}
+                                        src={personImage}
                                         alt=" "
                                     />
-                                    <span>Jacky</span>
+                                    <span>Stephanie</span>
                                 </div>
                             </div>
                         </div>

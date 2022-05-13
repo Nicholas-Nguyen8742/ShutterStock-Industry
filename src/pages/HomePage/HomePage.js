@@ -1,7 +1,7 @@
 import './HomePage.scss';
 import React from 'react';
 import UserStats from '../../components/UserStats/UserStats';
-import CreativeCloud from '../../assets/images/CreativeCloud.jpg';
+import CreativeCloud from '../../assets/images/CreativeAd.PNG';
 import ProfileCard from '../../components/ProfileCard/ProfileCard';
 import Earnings from '../../components/Earnings/Earnings';
 import Downloads from '../../components/Downloads/Downloads';

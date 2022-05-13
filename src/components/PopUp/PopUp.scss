@@ -112,6 +112,7 @@
 		width: 3rem;
 		height: 3rem;
 		margin-right: 1rem;
+		object-fit: cover;
 	}
 }
 
@@ -213,6 +214,6 @@
 	}
   }
 
-  .popup-content {
-	-webkit-animation: anvil 0.3s cubic-bezier(0.38, 0.1, 0.36, 0.9) forwards;
-  }
+//   .popup-content {
+ 	// -webkit-animation: anvil 0.3s cubic-bezier(0.38, 0.1, 0.36, 0.9) forwards;
+//   }
