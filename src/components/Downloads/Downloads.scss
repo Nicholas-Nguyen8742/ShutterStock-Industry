@@ -1,0 +1,58 @@
+@use '../../styles/partials/mixins' as *;
+@use '../../styles/partials/variables' as *;
+
+.downloads {
+    width: 95%;
+    display: flex;
+    border-radius: 4px;
+    border: $Border-Divider;
+    margin-left: 3.5625rem;
+    background-color: white;
+    padding: 2rem;
+    margin-top: -34rem;
+    height: 30rem;
+    &-left {
+        width: 45%;
+        &__map {
+            width: 100%;
+        }
+    }
+    &-right {
+        width: 55%;
+        align-self: center;
+        &__headers {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        &__header {
+            width: 25%;
+            font-weight: bold;
+            text-align: center;
+        }
+        &__rows {
+            display: flex;
+            justify-content: space-between;
+            text-align: center;
+            align-items: center;
+            padding: 1rem;
+            border-top: $Border-Divider;
+            border-bottom: $Border-Divider;
+        }
+        &__row {
+            text-align: center;
+            align-items: center;
+            width: 25%;
+            border-right: $Border-Divider;
+            height: 100%;
+            margin: 0;
+            padding: 2rem 0;
+            &:nth-child(4) {
+                border-right: unset;
+            }
+        }
+        &__img {
+            width: 20%;
+        }
+    }
+}
