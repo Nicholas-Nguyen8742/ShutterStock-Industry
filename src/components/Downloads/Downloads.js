@@ -1,3 +1,4 @@
+import './Downloads.scss';
 import React from 'react';
 import map from '../../assets/images/map.png';
 import bridge from '../../assets/images/BrooklynBridge.png';

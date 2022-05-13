@@ -1,0 +1,164 @@
+@use "../../styles/partials/mixins" as *;
+@use "../../styles/partials/variables" as *;
+
+.photometrics {
+	padding: 1rem 2rem;
+	display: flex;
+
+	// display: flex;
+	// flex-direction: column;
+
+	&__image {
+		width: 45rem;
+		margin-left: auto;
+		margin-right: auto;
+		display: block;
+	}
+
+	&__buttons {
+		display: flex;
+		justify-content: flex-end;
+		align-content: flex-end;
+		gap: 1rem;
+		margin-bottom: 1rem;
+
+		&-container {
+			display: flex;
+			justify-content: space-between;
+			align-items: flex-end;
+		}
+	}
+	&__try {
+		border-radius: 20px;
+		background-color: lightgray;
+	}
+	&__share {
+		border-radius: 20px;
+		background-color: lightgray;
+	}
+	&__likes {
+		border-style: none;
+	}
+	&__redownload {
+		border-radius: 20px;
+		background-color: red;
+		color: white;
+		border-style: none;
+		font-weight: bold;
+		padding: 0.5rem 2rem;
+	}
+	&__downloads {
+		background-color: white;
+		border-style: none;
+	}
+	&__book {
+		margin-left: 1rem;
+	}
+	&__background {
+		border: 2px solid lightgray;
+	}
+	&__text-container {
+		display: flex;
+		justify-content: space-between;
+	}
+	&__text-1 {
+		width: 33.33%;
+	}
+	&__text-2 {
+		width: 33.33%;
+	}
+	&__contributor {
+		width: 33.33%;
+		text-align: end;
+	}
+	&__caption-container {
+		display: flex;
+		margin-bottom: 1rem;
+		justify-content: space-between;
+		align-items: baseline;
+	}
+	&__details {
+		display: flex;
+		flex-direction: column;
+		width: 33.33%;
+	}
+	&__id {
+		color: #757575;
+	}
+	&__address {
+		font-weight: bold;
+		color: #0c121c;
+		width: 80%;
+	}
+	&__title {
+		font-weight: bold;
+		color: #0c121c;
+	}
+	&__measurement {
+		color: #757575;
+		font-weight: bold;
+		border: 1px solid #757575;
+		border-radius: 5px;
+		padding: 0.5rem;
+	}
+	&__profile {
+		border-radius: 50%;
+		width: 3rem;
+		height: 3rem;
+		margin-right: 1rem;
+	}
+}
+
+.side-bar {
+	border-left: 1px solid gray;
+
+	&__text {
+		display: flex;
+		justify-content: space-between;
+		width: 100%;
+	}
+
+	&__image {
+		width: 5rem;
+		width: 7rem;
+		margin-bottom: 67px;
+		display: block;
+		margin-top: 0.5rem;
+	}
+
+	&__name {
+		color: black;
+		font-weight: 700;
+		margin-bottom: 0.5rem;
+	}
+
+	&__comments-container {
+		padding-left: 2rem;
+	}
+
+	&__date {
+		color: #757575;
+	}
+
+	&__play {
+		background-color: white;
+		border: none;
+		padding: 0;
+		margin: 1rem 0;
+	}
+
+	&__link-container {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+	}
+
+	&__show-transcript {
+		color: #0071f1;
+	}
+
+	&__see-comments {
+		color: #0071f1;
+		text-align: right;
+	}
+}
