@@ -17,11 +17,18 @@
     }
     &-right {
         padding: 0 1.5rem;
-        &__progress {
-            color: #4e90AD;
-            width: 100%;
-            border: $Border-Divider;
-            border-radius: 6px;
+        &__progress-filled {
+            background-color: #4e90AD;
+            width: 90%;
+            height: 100%;
+            border-radius: 2px;
+        }
+        &__progress-wrapper {
+            display: block;
+            height: 4px;
+            margin-top: 7px;
+            background-color: #f5f5f5;
+            border-radius: 2px;
         }        
     }
     &__avatar {

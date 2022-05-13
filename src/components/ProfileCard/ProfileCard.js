@@ -11,7 +11,10 @@ function ProfileCard() {
             </div>
             <div className='profilecard-right' >
                 <p className='profilecard-right__body'>90% of profile strength</p>
-                <progress className='profilecard-right__progress' value="90" max="100"></progress>
+                <div className='profilecard-right__progress-wrapper'>
+                    <div className='profilecard-right__progress-filled'></div>
+                </div>
+                {/* <progress className='profilecard-right__progress' value="90" max="100"></progress> */}
                 <p className='profilecard-right__body'>Increase your discovery &gt; add your <span className=''>social media accounts</span></p>
             </div>
         </article>
