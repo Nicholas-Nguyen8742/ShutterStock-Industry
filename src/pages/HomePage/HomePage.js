@@ -1,7 +1,7 @@
 import './HomePage.scss';
 import React from 'react';
 import UserStats from '../../components/UserStats/UserStats';
-import CreativeAd from '../../assets/images/CreativeAd.svg';
+import CreativeCloud from '../../assets/images/CreativeCloud.jpg';
 import Stephanie from '../../assets/images/Stephanie.svg';
 
 function HomePage() {
@@ -10,7 +10,7 @@ function HomePage() {
             <div className='UserPage-Left'> 
                 <button className='upload'>Upload content</button>
                 <UserStats />
-                <img className="advertisment" src={CreativeAd} alt="Advertisement for Adobe Studios"></img>
+                <img className="adobe" src={CreativeCloud} alt="Advertisement for Adobe Studios"></img>
             </div>
             <div className='UserPage-Right'>
                 <article className='profilecard'>
