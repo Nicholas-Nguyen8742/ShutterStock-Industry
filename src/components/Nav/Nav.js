@@ -10,7 +10,7 @@ export const Nav = () => {
 				<li className="nav__item">Insights<span class="glyphicon glyphicon-menu-down"></span></li>
 				<li className="nav__item">Upload<span class="glyphicon glyphicon-menu-down"></span></li>
 			</ul>
-			<span className="nav__earnings">Unpaid Earnings: $0.00</span>
+			<span className="nav__earnings">Unpaid Earnings: $2,633.97</span>
 		</nav>
 	);
 };
