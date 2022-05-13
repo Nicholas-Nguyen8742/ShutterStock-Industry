@@ -3,10 +3,20 @@
 
 .UserPage {
     background-color: rgba($Primary-Gray, 0.25);
+    height: 100rem;
+    display: flex;
+
     &-Left {
         width: 33%;
         padding-top: 2rem;
         padding-left: 2rem;
+        display: flex;
+        flex-direction: column;
+    }
+    &-Right {
+        display: flex;
+        width: 66%;
+
     }
 
 }
@@ -29,5 +39,47 @@
 
 .advertisment {
     width: 100%;
-    
+    border-radius: 6px;
+    margin-top: 24rem;
 }
+
+.profilecard {
+    border: $Border-Divider;
+    height: fit-content;
+    width: fit-content;
+    margin-top: 3.5rem;
+    margin-left: 3.5625rem;
+    background-color: white;
+    padding: 2rem;
+    display: flex;
+    &-left {
+        padding: 0 1.5rem;
+        border-right: $Border-Divider;
+    }
+    &-right {
+        padding: 0 1.5rem;
+        &__progress {
+            color: #4e90AD;
+            width: 100%;
+            border: $Border-Divider;
+            border-radius: 6px;
+        }        
+    }
+    &__avatar {
+        width: 130px;
+        height: 123px;
+        object-fit: cover;
+        border-radius: 50%;
+    }
+    &__body {
+        text-align: center;
+        padding-top: 0.5rem;
+
+    }
+}
+
+// progress[value]::-webkit-progress-bar {
+//     background-color: #eee;
+//     border-radius: 2px;
+//     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25) inset;
+// }
